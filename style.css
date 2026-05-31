@@ -532,14 +532,20 @@ gap: 2rem;
             font-size: 2rem;
         }
         .home{
-            background-position: left;
+            background-position:center;
+            flex-flow: column;
+            align-items: center;
+            text-align: center;
         }
         .home .content{
-            max-width: 50rem;
-            padding-left: 3rem;
+            max-width: 100%;
+            padding-left: 2rem;
         }
         .home .content h3{
             font-size: 4rem;
+        }
+        .contact .contact-container .map-container{
+            min-height: 30rem;
         }
        }
        @media(max-width:450px){
@@ -548,5 +554,8 @@ gap: 2rem;
         }
          .home .content h3{
             font-size: 3rem;
-        }}
+        }
+    .footer .box-container{
+        grid-template-columns: 1fr;
+    }}
 
